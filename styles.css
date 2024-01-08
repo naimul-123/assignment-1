@@ -166,7 +166,6 @@ color:#ff0000;
     position: relative;
 }
 .new-year-pic img{
-    mix-blend-mode: multiply;
     position: absolute;
     left: 100px;
     top:-50px
