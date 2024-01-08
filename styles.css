@@ -144,6 +144,7 @@ color:#ff0000;
     background-size: cover;
     margin: 100px auto;
     padding: 126px;
+    display: flex;
    
 }
 .invite{
@@ -160,6 +161,15 @@ color:#ff0000;
     background: transparent;
     border: none;
 
+}
+.new-year-pic{
+    position: relative;
+}
+.new-year-pic img{
+    mix-blend-mode: multiply;
+    position: absolute;
+    left: 100px;
+    top:-50px
 }
 
 /* Schedule section style */
