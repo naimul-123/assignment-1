@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+/* Reusable Styles */
+
     /* Font famaly  */
 
 .fm-1{
@@ -110,11 +112,10 @@ color:#ff0000;
 .banner{
     max-width: 1320px;
     height: 600px;
-    margin: 50px auto;
+    margin: 50px auto 100px;
     text-align: center;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./resources/Banner\ Image.png") center/cover;
-    /* background-image: url("./resources/Banner\ Image.png"); */
 
 }
 
@@ -138,11 +139,10 @@ color:#ff0000;
 .invitation-section{
     max-width: 1320px;
     height: 600px;
-    /* background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),  url("./resources/Vectorrr.png") cover/center; */
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./resources/Vectorrr.png") center/cover;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 50px auto;
+    margin: 100px auto;
     padding: 126px;
    
 }
@@ -167,7 +167,7 @@ color:#ff0000;
     max-width: 1320px;
     height: 482px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    margin: 50px auto;
+    margin: 100px auto;
     padding: 100px 386px 126px;
 
 }
@@ -185,7 +185,7 @@ color:#ff0000;
 .offer-section{
     max-width: 1320px;
     width: 1320px;
-    margin: 50px auto;
+    margin: 100px auto;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -219,7 +219,7 @@ color:#ff0000;
 .holiday{
     max-width: 1320px;
     width: 1320px;
-    margin: 50px auto;
+    margin: 100px auto;
     align-items: center;
 }
 .holiday-sale{
@@ -255,7 +255,7 @@ color:#ff0000;
 .portfolio{
     max-width: 1320px;
     width: 1320px;
-    margin: 50px auto;
+    margin: 100px auto;
     align-items: center;
 }
 .portfolio-text-area{
@@ -284,7 +284,7 @@ color:#ff0000;
 .subscribe{
     max-width: 1320px;
     width: 1320px;
-    margin: 50px auto;
+    margin: 100px auto;
     text-align: center;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
@@ -318,10 +318,11 @@ color:#ff0000;
     padding: 25px 30px;
     border-radius: 0 50px 50px 0;
 }
+/* Footer section style */
 .footer{
     max-width: 1600px;
     background-color: #070211;
-    margin: 130px auto;
+    margin: 100px auto 0;
     padding: 120px 140px;
 }
 .address-area {
@@ -336,9 +337,13 @@ color:#ff0000;
     width: 50%;
     text-align: left;
 }
+.contact img{
+    width: 24px;
+    height: 24px;
+}
 
 .social-icons-area{
-    margin: 50px auto;
+    margin: 100px auto;
     width: 1320px;
     text-align: center;
     display: flex;
@@ -352,7 +357,7 @@ color:#ff0000;
     align-items: center;
     gap:555px;
     margin-bottom: 50px;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 .right-desc{
     width: 50%;
